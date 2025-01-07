@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TrainTrackr-footprints")(type "KiCad")(uri "${KIPRJMOD}/TrainTrackr-footprints.pretty")(options "")(descr ""))
+)

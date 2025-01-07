@@ -1,0 +1,55 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "779c311e-6596-48d7-a471-956474340a54")
+	(paper "B")
+	(title_block
+		(title "SEPTA TrainTrackr")
+		(rev "-")
+	)
+	(lib_symbols)
+	(sheet
+		(at 448.31 1.27)
+		(size 369.57 278.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3facaccf-b6c4-4913-806c-3fdf8ae08956")
+		(property "Sheetname" "TrainTrackr_sh2"
+			(at 448.31 0.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TrainTrackr_sh2.kicad_sch"
+			(at 448.31 279.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TrainTrackr"
+				(path "/779c311e-6596-48d7-a471-956474340a54"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

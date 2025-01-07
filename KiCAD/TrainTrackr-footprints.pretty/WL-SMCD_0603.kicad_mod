@@ -1,0 +1,233 @@
+(footprint "WL-SMCD_0603"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<B>WL-SMCD SMT Mono-color Chip LED Diffused </B> <BR><BR>Size 0603, SMT, 2pins<BR>1.6x0.8x0.4mm(LXWXH)")
+	(property "Reference" "REF**"
+		(at 0 -1.3064 0)
+		(layer "F.SilkS")
+		(uuid "7fb89f78-5151-4d25-a112-4d2a25590ef6")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WL-SMCD_0603"
+		(at 0 1.2936 0)
+		(layer "F.Fab")
+		(uuid "4d0d27c0-ada7-4dec-8de6-592601b4a5bd")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fe92359-774b-404f-8862-f4b5557981ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44545e85-bd47-4ff3-b5e2-be2fcd37d967")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fd9ee15-821d-416c-9477-b9f70ec0b126")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.1 0)
+		(end 0.1 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3396f509-3429-4ec1-b307-bfa152c8fd25")
+	)
+	(fp_line
+		(start -0.1 0)
+		(end 0.1 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f8bb327-8b71-4c95-85a7-cbd7192b1fc2")
+	)
+	(fp_line
+		(start 0.1 -0.2)
+		(end 0.1 0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a007c4f3-b00e-4d54-b024-7ca73fba2ea3")
+	)
+	(fp_line
+		(start 0.1 -0.2)
+		(end 0.1 0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9369cd8-f732-436f-974c-95ab03ed94a0")
+	)
+	(fp_line
+		(start 0.1 0.2)
+		(end -0.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b760c69-dcdc-4763-9532-edfbf8528631")
+	)
+	(fp_line
+		(start 0.1 0.2)
+		(end -0.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c83729a9-dc45-44fd-872d-51c50817fe7f")
+	)
+	(fp_circle
+		(center -1.7 0)
+		(end -1.6 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9372cf35-77b5-4e23-aba5-2ceae08d60f7")
+	)
+	(fp_poly
+		(pts
+			(xy -1.4 -0.6) (xy 1.4 -0.6) (xy 1.4 0.6) (xy -1.4 0.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "5cb9c47d-8729-4f68-a206-f09b679e5db7")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33406df0-c0bf-43ee-957f-7a8cd5a2d7e8")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7414f615-34fd-4e00-8753-6da7b525c757")
+	)
+	(fp_line
+		(start -0.1 0)
+		(end 0.1 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b05f3ee4-cdfc-4ee8-b3d7-549e52212881")
+	)
+	(fp_line
+		(start 0.1 -0.2)
+		(end 0.1 0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48114df6-37f2-4ba7-8e65-c1d4bb4f4aba")
+	)
+	(fp_line
+		(start 0.1 0.2)
+		(end -0.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1080984e-0b27-4af0-ae03-43b2304b1982")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d9071056-1148-4cc9-94cb-035cb7586cd2")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb5d9467-f025-43fd-a610-bf2b67710e41")
+	)
+	(pad "1" smd rect
+		(at -0.8 0)
+		(size 0.8 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "0225466a-7fdc-4304-8460-10731b827429")
+	)
+	(pad "2" smd rect
+		(at 0.8 0)
+		(size 0.8 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "a9b01d37-83d4-4585-a3fd-3b13338eb15a")
+	)
+)

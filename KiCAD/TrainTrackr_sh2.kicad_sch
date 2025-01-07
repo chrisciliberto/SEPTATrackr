@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8837557a-e744-46d6-a23d-31d1867fc404")
+	(paper "B")
+	(lib_symbols)
+	(label "Lansdale-Doylestown Line LED Array"
+		(at 13.97 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 6.35 6.35)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8ed4de7-d4c3-40d0-a216-1744adbd6eb7")
+	)
+)
