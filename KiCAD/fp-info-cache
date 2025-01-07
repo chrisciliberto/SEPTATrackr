@@ -1,4 +1,4 @@
-24419594113165413
+24421330395581253
 150060BS55040
 WL-SMCD_0603
 <B>WL-SMCD SMT Mono-color Chip LED Diffused </B> <BR><BR>Size 0603, SMT, 2pins<BR>1.6x0.8x0.4mm(LXWXH)
@@ -97005,6 +97005,13 @@ MOSFET (N-Channel)
 0
 8
 8
+TrainTrackr-footprints
+RaspberryPi_Pico_W_SMD_HandSolder
+Raspberry Pi Pico W (wireless only) surface-mount footprint with debug pads for hand soldering (not compatible with original Pico), https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf
+Raspberry Pi Pico module usb pcb swd antenna handsolder
+0
+83
+43
 TrainTrackr-footprints
 WL-SMCD_0603
 <B>WL-SMCD SMT Mono-color Chip LED Diffused </B> <BR><BR>Size 0603, SMT, 2pins<BR>1.6x0.8x0.4mm(LXWXH)

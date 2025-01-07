@@ -48,6 +48,44 @@
 		)
 	)
 	(sheet
+		(at -6.35 312.42)
+		(size 438.15 278.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "849774d0-25f0-4453-9479-ecac56d96414")
+		(property "Sheetname" "TrainTrackr_sh4"
+			(at -6.35 311.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TrainTrackr_sh4.kicad_sch"
+			(at -6.35 591.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TrainTrackr"
+				(path "/779c311e-6596-48d7-a471-956474340a54"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 852.17 0)
 		(size 359.41 278.13)
 		(fields_autoplaced yes)
