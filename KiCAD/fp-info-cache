@@ -1,4 +1,4 @@
-24421330395581253
+24424803078926052
 150060BS55040
 WL-SMCD_0603
 <B>WL-SMCD SMT Mono-color Chip LED Diffused </B> <BR><BR>Size 0603, SMT, 2pins<BR>1.6x0.8x0.4mm(LXWXH)
@@ -96992,6 +96992,13 @@ test point THT pad
 1
 1
 TrainTrackr-footprints
+105455-0101_MOL
+
+1054550101 
+0
+28
+28
+TrainTrackr-footprints
 LED_FZ2812-5050
 
 
@@ -97012,6 +97019,13 @@ Raspberry Pi Pico module usb pcb swd antenna handsolder
 0
 83
 43
+TrainTrackr-footprints
+TENSILITY_54-00165
+
+
+0
+4
+4
 TrainTrackr-footprints
 WL-SMCD_0603
 <B>WL-SMCD SMT Mono-color Chip LED Diffused </B> <BR><BR>Size 0603, SMT, 2pins<BR>1.6x0.8x0.4mm(LXWXH)
