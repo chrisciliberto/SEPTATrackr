@@ -1,4 +1,4 @@
-24424803078926052
+24431748933211867
 150060BS55040
 WL-SMCD_0603
 <B>WL-SMCD SMT Mono-color Chip LED Diffused </B> <BR><BR>Size 0603, SMT, 2pins<BR>1.6x0.8x0.4mm(LXWXH)
@@ -96999,7 +96999,21 @@ TrainTrackr-footprints
 28
 28
 TrainTrackr-footprints
+DCK0005A_L
+
+SN74LV1T34DCKR 
+0
+5
+5
+TrainTrackr-footprints
 LED_FZ2812-5050
+
+
+0
+4
+4
+TrainTrackr-footprints
+LED_IN-PI33TBTPRPGPB
 
 
 0
@@ -97033,6 +97047,20 @@ WL-SMCD_0603
 0
 2
 2
+TrainTrackr-footprints
+train
+
+
+0
+3
+3
+TrainTrackr-footprints
+train_line
+
+
+0
+0
+0
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)

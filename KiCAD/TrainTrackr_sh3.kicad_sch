@@ -8,15 +8,15 @@
 		(title "Lansdale Doylestown LED Array Con't")
 	)
 	(lib_symbols
-		(symbol "TrainTrackr-lib:FZ2812-5050"
+		(symbol "TrainTrackr-lib:IN-PI33TBTPRPGPB"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -10.16 7.62 0)
+			(property "Reference" "D"
+				(at -12.7 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -24,8 +24,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "FZ2812-5050"
-				(at -10.16 -10.16 0)
+			(property "Value" "IN-PI33TBTPRPGPB"
+				(at -12.7 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -33,8 +33,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "FZ2812-5050:LED_FZ2812-5050"
-				(at 6.096 -11.938 0)
+			(property "Footprint" "IN-PI33TBTPRPGPB:LED_IN-PI33TBTPRPGPB"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -61,8 +61,48 @@
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "1"
-				(at -8.89 -20.066 0)
+			(property "MF" "Inolux"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Inolux"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -72,7 +112,7 @@
 				)
 			)
 			(property "STANDARD" "Manufacturer Recommendations"
-				(at 5.334 -13.716 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -81,8 +121,8 @@
 					(hide yes)
 				)
 			)
-			(property "SNAPEDA_PN" "FZ2812-5050"
-				(at -3.048 -15.494 0)
+			(property "PARTREV" "1.2"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -91,8 +131,8 @@
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-				(at -6.604 -17.018 0)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -101,8 +141,8 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "Feztek"
-				(at -6.858 -18.288 0)
+			(property "MP" "IN-PI33TBTPRPGPB"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -111,10 +151,40 @@
 					(hide yes)
 				)
 			)
-			(symbol "FZ2812-5050_0_0"
+			(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Inolux"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "IN-PI33TBTPRPGPB_0_0"
 				(rectangle
-					(start -10.16 -7.62)
-					(end 10.16 7.62)
+					(start -12.7 -7.62)
+					(end 12.7 7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -124,9 +194,9 @@
 					)
 				)
 				(pin power_in line
-					(at 15.24 -5.08 180)
+					(at 17.78 -5.08 180)
 					(length 5.08)
-					(name "VSS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -142,7 +212,7 @@
 					)
 				)
 				(pin input line
-					(at -15.24 0 0)
+					(at -17.78 0 0)
 					(length 5.08)
 					(name "DIN"
 						(effects
@@ -160,7 +230,7 @@
 					)
 				)
 				(pin power_in line
-					(at 15.24 5.08 180)
+					(at 17.78 5.08 180)
 					(length 5.08)
 					(name "VDD"
 						(effects
@@ -178,7 +248,7 @@
 					)
 				)
 				(pin output line
-					(at 15.24 0 180)
+					(at 17.78 0 180)
 					(length 5.08)
 					(name "DOUT"
 						(effects
@@ -415,326 +485,610 @@
 		)
 	)
 	(junction
-		(at 154.94 60.96)
+		(at 201.93 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "05e82035-ad55-44cd-8b49-cc1cdee211e4")
+		(uuid "03db05f8-927c-41ad-a86d-1d958c85ab7c")
 	)
 	(junction
-		(at 125.73 60.96)
+		(at 356.87 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "103cb38b-4394-4e7b-8506-5464a924d568")
+		(uuid "06d4b947-e8b3-4ec6-bd7a-07880eef54c0")
 	)
 	(junction
-		(at 194.31 60.96)
+		(at 236.22 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2a33e447-2557-45da-b275-3a5e35d11b39")
+		(uuid "07371093-d7e0-4632-9dc2-0251a43349b0")
 	)
 	(junction
-		(at 165.1 60.96)
+		(at 119.38 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3a4c0f21-10c3-404c-b333-92186f7b5124")
+		(uuid "0b7ab00c-e189-49c6-b6e9-972d211775e4")
 	)
 	(junction
-		(at 203.2 60.96)
+		(at 275.59 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4e8a3e28-2edb-4627-bcba-2d047ee5e1dd")
+		(uuid "0b92f0d9-01f6-4e9b-beb0-577dff73f222")
 	)
 	(junction
-		(at 242.57 60.96)
+		(at 241.3 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5680e408-9bff-4252-ba32-8a15b904f04e")
+		(uuid "0c1d727b-0967-40f7-b10d-0044217f626b")
 	)
 	(junction
-		(at 83.82 60.96)
+		(at 241.3 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6ca11c30-34bc-4f9d-a094-5af97e822727")
+		(uuid "0f0d7f10-8a89-42c3-a71f-862347a37123")
 	)
 	(junction
-		(at 237.49 60.96)
+		(at 161.29 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92dcd916-9f54-469c-847a-7ab8f283e33a")
+		(uuid "149382d3-4684-4037-ae35-0663cc347927")
 	)
 	(junction
-		(at 87.63 60.96)
+		(at 198.12 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9ccd2a81-2bc3-49a8-b59d-9684a2e88824")
+		(uuid "1a47a7d2-9fa7-4ef1-90c3-ade7e21ac68d")
 	)
 	(junction
-		(at 355.6 60.96)
+		(at 361.95 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c7009991-dada-4df0-b1c9-87613265820c")
+		(uuid "20a2b918-fa63-4ffe-a49a-9e55b25b9aef")
 	)
 	(junction
-		(at 124.46 60.96)
+		(at 161.29 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dab5d27f-c022-4706-9f8c-080271049caf")
+		(uuid "21d24490-8949-4474-8e8d-ef5a052884bc")
 	)
 	(junction
-		(at 271.78 60.96)
+		(at 157.48 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e56f4737-12b2-4318-8790-cd408b2fa0d1")
+		(uuid "26fd5dc9-fce6-4845-89e9-0c783d417cf4")
 	)
 	(junction
-		(at 314.96 60.96)
+		(at 196.85 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f266cce3-2789-4da0-b0ac-93c48c811863")
+		(uuid "29203f8f-9bcc-4c1a-b53b-2309d9b31ecb")
+	)
+	(junction
+		(at 201.93 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32ff7aa8-d4be-48d4-bb1e-61bc213c42f2")
+	)
+	(junction
+		(at 123.19 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38d3198d-36e3-4b75-8da3-77d92542d348")
+	)
+	(junction
+		(at 85.09 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a9c08c3-315c-4baf-a163-417df0182f21")
+	)
+	(junction
+		(at 85.09 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b5e4fe3-baa6-4617-a07d-2b71a5065441")
+	)
+	(junction
+		(at 200.66 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f127898-e5af-4d1e-8e54-834ab03d5967")
+	)
+	(junction
+		(at 157.48 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42b07c0b-f3b5-4a56-aca5-a3e571eb2dd5")
+	)
+	(junction
+		(at 80.01 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e959f2f-5443-45b8-b375-6688a5b4d5d3")
+	)
+	(junction
+		(at 322.58 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72d8e271-a095-450f-8f7c-12b0950d3f7e")
+	)
+	(junction
+		(at 119.38 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "749099b2-2487-4cdd-8216-c2a565f81779")
+	)
+	(junction
+		(at 275.59 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75580ce6-a71b-4be0-a122-e8c7297b5bb6")
+	)
+	(junction
+		(at 322.58 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a173959-f19c-49da-9fc1-45d9b5ee6b02")
+	)
+	(junction
+		(at 236.22 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac15a5a5-6fc4-4bc3-949b-6d447ec01ad3")
+	)
+	(junction
+		(at 316.23 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0794c7c-cf45-4e87-bee2-bab8bd4eae3d")
+	)
+	(junction
+		(at 281.94 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c495d9a6-0c96-4631-8400-668e9ee4a600")
+	)
+	(junction
+		(at 195.58 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7f02ce8-a9c3-4dc4-9e9a-40788cd6513a")
+	)
+	(junction
+		(at 356.87 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd3c8fd5-9e5c-4b4d-be71-c1197f552af8")
+	)
+	(junction
+		(at 281.94 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df9633ff-f8a6-4aac-908d-083ae2e970fe")
+	)
+	(junction
+		(at 316.23 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e51cdebc-2e2b-46ae-b33d-00acd5d68618")
+	)
+	(junction
+		(at 123.19 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f846ade5-0259-4f22-8a52-3ba232ad6731")
 	)
 	(wire
 		(pts
-			(xy 355.6 54.61) (xy 355.6 60.96)
+			(xy 45.72 128.27) (xy 45.72 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "037495e0-6831-4e3b-9f49-6ac6461122d2")
+		(uuid "006e204b-d4fc-4382-ba7a-1c2440928b10")
 	)
 	(wire
 		(pts
-			(xy 83.82 60.96) (xy 87.63 60.96)
+			(xy 322.58 96.52) (xy 316.23 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05c46020-20e3-43b7-9e30-796a00d237bf")
+		(uuid "0459168e-0df0-4ca5-b13b-eca766d797fa")
 	)
 	(wire
 		(pts
-			(xy 400.05 86.36) (xy 392.43 86.36)
+			(xy 281.94 96.52) (xy 281.94 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e3c9605-c99b-45ee-ae66-93954b5c2e7d")
+		(uuid "055003ab-9234-492b-9041-c5a17892707f")
 	)
 	(wire
 		(pts
-			(xy 194.31 54.61) (xy 194.31 60.96)
+			(xy 196.85 96.52) (xy 200.66 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10a840b8-40f2-47df-9d07-3599f4ebe7c6")
+		(uuid "06a091ea-603c-4b45-9aa1-91618bd9f94e")
 	)
 	(wire
 		(pts
-			(xy 242.57 60.96) (xy 242.57 81.28)
+			(xy 196.85 96.52) (xy 196.85 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14154706-bb8a-4b6d-83cf-ca26868a0b4f")
+		(uuid "0c840f2d-2b83-44bc-ad0b-03487063ee0b")
 	)
 	(wire
 		(pts
-			(xy 349.25 49.53) (xy 360.68 49.53)
+			(xy 161.29 97.79) (xy 196.85 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "143d5428-0a09-447c-b549-80d8c3fe32f1")
+		(uuid "0ff9ec1d-1998-44a8-94f9-00725b8bbe52")
 	)
 	(wire
 		(pts
-			(xy 125.73 60.96) (xy 154.94 60.96)
+			(xy 407.67 123.19) (xy 397.51 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24fd21be-1c74-4ee9-be2e-72d8b15a6615")
+		(uuid "1016c793-f76e-4e52-8681-b8bba4966db8")
 	)
 	(wire
 		(pts
-			(xy 165.1 60.96) (xy 194.31 60.96)
+			(xy 236.22 80.01) (xy 240.03 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e8808a9-2200-40b2-b58d-08f281d330c8")
+		(uuid "10659b08-ae1e-4ffd-88bd-349a3491f97d")
 	)
 	(wire
 		(pts
-			(xy 77.47 49.53) (xy 86.36 49.53)
+			(xy 236.22 85.09) (xy 236.22 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30c8dfac-adf5-4587-9fd5-a08455d2c930")
+		(uuid "10ad76f1-871e-428a-a745-30aca1420dbb")
 	)
 	(wire
 		(pts
-			(xy 78.74 86.36) (xy 87.63 86.36)
+			(xy 358.14 123.19) (xy 361.95 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39f099d1-1fb2-4299-b582-02db92e6c7cf")
+		(uuid "1138ea82-3dbb-466f-a6c4-8b611d320b29")
 	)
 	(wire
 		(pts
-			(xy 361.95 81.28) (xy 355.6 81.28)
+			(xy 396.24 80.01) (xy 407.67 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ba062fc-1436-425c-b81a-a4d0653eb653")
+		(uuid "125625d4-59b0-45a1-8cbb-3bfe833610cb")
 	)
 	(wire
 		(pts
-			(xy 232.41 54.61) (xy 237.49 54.61)
+			(xy 241.3 128.27) (xy 241.3 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48656fcb-6918-4d1d-b35f-9449d9c83f90")
+		(uuid "168d3d40-ee22-4bc5-b7dd-e0631df47d2e")
 	)
 	(wire
 		(pts
-			(xy 203.2 60.96) (xy 203.2 81.28)
+			(xy 85.09 97.79) (xy 85.09 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49a54bdc-ae27-4865-a869-4c547f44a5d2")
+		(uuid "18457904-b633-4627-8e40-39bcc3fa861a")
 	)
 	(wire
 		(pts
-			(xy 48.26 81.28) (xy 48.26 60.96)
+			(xy 123.19 118.11) (xy 123.19 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49e0571f-6500-4675-9959-b2916339ec7a")
+		(uuid "1a256a4c-ccd2-4178-bae8-79c1354c24f6")
 	)
 	(wire
 		(pts
-			(xy 309.88 54.61) (xy 314.96 54.61)
+			(xy 236.22 52.07) (xy 275.59 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c40c278-117d-4b68-b42c-2a3eda876cd3")
+		(uuid "1b505b0b-4fc0-4ab4-a053-42b62ac1772b")
 	)
 	(wire
 		(pts
-			(xy 194.31 60.96) (xy 203.2 60.96)
+			(xy 123.19 151.13) (xy 161.29 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ec1bdf9-46a9-4fca-90a0-be0874b22dcb")
+		(uuid "1e72ff63-af2f-4930-8c4d-ce150cf0043d")
 	)
 	(wire
 		(pts
-			(xy 355.6 60.96) (xy 314.96 60.96)
+			(xy 200.66 96.52) (xy 201.93 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f565839-dfbf-4f2a-8f5d-ee061e92daad")
+		(uuid "21cc9b71-b07e-4641-be11-7ae0dc486d8b")
 	)
 	(wire
 		(pts
-			(xy 232.41 49.53) (xy 241.3 49.53)
+			(xy 195.58 52.07) (xy 198.12 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "512a3d6e-c5d0-403e-92bc-16b770ba03e9")
+		(uuid "21def1d3-deb4-4cb0-b986-f729eced129a")
 	)
 	(wire
 		(pts
-			(xy 87.63 60.96) (xy 87.63 81.28)
+			(xy 158.75 123.19) (xy 161.29 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56223f6c-5f8e-495b-bf9c-2a6b1c91d78c")
+		(uuid "268c3ee9-810e-40c9-bb38-e2f6fbe9649b")
 	)
 	(wire
 		(pts
-			(xy 154.94 49.53) (xy 163.83 49.53)
+			(xy 157.48 52.07) (xy 157.48 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a48edba-e536-4e3b-94fd-7391b65e761d")
+		(uuid "27c0cc57-d24e-42d8-ba8a-81918e8f08b4")
 	)
 	(wire
 		(pts
-			(xy 350.52 86.36) (xy 361.95 86.36)
+			(xy 356.87 85.09) (xy 356.87 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5da114e4-2730-49c4-a4a1-e9e9dda481b3")
+		(uuid "28e4c77f-15d4-4d70-a2c2-5ce0f567ebc0")
 	)
 	(wire
 		(pts
-			(xy 237.49 54.61) (xy 237.49 60.96)
+			(xy 407.67 80.01) (xy 407.67 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6977e03d-a546-4281-aad3-0d2674e18268")
+		(uuid "2c0df9be-cd22-462e-a78c-8bf97399a011")
 	)
 	(wire
 		(pts
-			(xy 154.94 60.96) (xy 165.1 60.96)
+			(xy 237.49 123.19) (xy 241.3 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75ee62c2-9463-4f9e-b371-e37996c82d47")
+		(uuid "2f77b7e8-ba34-4bd1-9268-1037002e61ed")
 	)
 	(wire
 		(pts
-			(xy 156.21 86.36) (xy 165.1 86.36)
+			(xy 157.48 97.79) (xy 161.29 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7cb8e227-98df-4826-bd5b-b5516323e8c7")
+		(uuid "3a7f1280-908c-4929-9b4a-4cca52edc9bc")
 	)
 	(wire
 		(pts
-			(xy 38.1 86.36) (xy 48.26 86.36)
+			(xy 45.72 118.11) (xy 45.72 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b02bbae-9bc4-40fa-8c18-f881d7f93217")
+	)
+	(wire
+		(pts
+			(xy 396.24 74.93) (xy 396.24 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be3fe3f-cd2a-4085-8d3d-758cfe6b4ea2")
+	)
+	(wire
+		(pts
+			(xy 275.59 52.07) (xy 316.23 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2e8def-3306-4fac-b640-ce7b7f86cfee")
+	)
+	(wire
+		(pts
+			(xy 123.19 97.79) (xy 157.48 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f1ca27-1486-4d84-9e94-f524b3bc7c7d")
+	)
+	(wire
+		(pts
+			(xy 322.58 128.27) (xy 322.58 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4452fdcc-e6ce-4a95-a568-feee78a2fdff")
+	)
+	(wire
+		(pts
+			(xy 281.94 151.13) (xy 322.58 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ae607d-8b4a-407c-8e79-52a4d9126417")
+	)
+	(wire
+		(pts
+			(xy 157.48 52.07) (xy 195.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f419b1d-f0ba-414d-8836-9bbb1c4fb250")
+	)
+	(wire
+		(pts
+			(xy 356.87 80.01) (xy 360.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51cfebc7-ab87-4b71-8796-9433ba4be786")
+	)
+	(wire
+		(pts
+			(xy 161.29 151.13) (xy 201.93 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5443508b-100d-431e-8bee-e6727d0dbbc2")
+	)
+	(wire
+		(pts
+			(xy 198.12 52.07) (xy 236.22 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "563b9227-3bfe-4b1b-ba9a-4e0220ec6f62")
+	)
+	(wire
+		(pts
+			(xy 322.58 151.13) (xy 361.95 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c3a7608-209a-48e4-92cb-0807eb7616fe")
+	)
+	(wire
+		(pts
+			(xy 80.01 74.93) (xy 80.01 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea50b42-cd73-4747-9432-cb1c6626ed18")
+	)
+	(wire
+		(pts
+			(xy 195.58 80.01) (xy 200.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619b47b2-c21d-4c28-b55c-607f9c3b0891")
+	)
+	(wire
+		(pts
+			(xy 195.58 85.09) (xy 200.66 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636fb87f-1455-40e5-8a2c-5f6a38b6734a")
+	)
+	(wire
+		(pts
+			(xy 356.87 52.07) (xy 396.24 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639eba19-5f7d-4c20-9354-baf9b2b9e2b5")
+	)
+	(wire
+		(pts
+			(xy 241.3 118.11) (xy 241.3 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659086ee-f277-4747-a587-ec0a385a6d95")
+	)
+	(wire
+		(pts
+			(xy 356.87 96.52) (xy 322.58 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b26032-7017-4e6f-84e0-a6746e42fc80")
+	)
+	(wire
+		(pts
+			(xy 39.37 123.19) (xy 45.72 123.19)
 		)
 		(stroke
 			(width 0)
@@ -744,147 +1098,217 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 60.96) (xy 125.73 60.96)
+			(xy 275.59 74.93) (xy 275.59 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81ef2e96-270f-403d-9530-b5e2ccfa051f")
+		(uuid "7f89cd90-b8c0-412f-975f-a05530a99713")
 	)
 	(wire
 		(pts
-			(xy 118.11 86.36) (xy 125.73 86.36)
+			(xy 195.58 52.07) (xy 195.58 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "844a5a99-8bab-44ff-bffa-b43f8500a865")
+		(uuid "82121e04-a2ad-4766-b0a6-da2f671cd866")
 	)
 	(wire
 		(pts
-			(xy 237.49 60.96) (xy 237.49 62.23)
+			(xy 275.59 85.09) (xy 275.59 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85298a39-5e9f-43b5-afc2-d1884680b16d")
+		(uuid "8212bf76-6edb-4148-90f2-6c92f53160af")
 	)
 	(wire
 		(pts
-			(xy 195.58 86.36) (xy 203.2 86.36)
+			(xy 120.65 123.19) (xy 123.19 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "874b7cf7-30e5-4ae9-bcae-b802aa0b76d2")
+		(uuid "83cd9e12-0e42-46e9-bd16-f391ad5671e4")
 	)
 	(wire
 		(pts
-			(xy 165.1 60.96) (xy 165.1 81.28)
+			(xy 80.01 52.07) (xy 119.38 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ae40786-9d40-4f18-a427-7408ab30505c")
+		(uuid "850c2566-9ef4-4700-9f59-98a7b3fa6e68")
 	)
 	(wire
 		(pts
-			(xy 391.16 60.96) (xy 355.6 60.96)
+			(xy 119.38 52.07) (xy 157.48 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d6af1fe-bc79-4a08-8d89-beb0363405c8")
+		(uuid "86c0f770-116e-4bfa-88b8-2fde1c7214a3")
 	)
 	(wire
 		(pts
-			(xy 203.2 60.96) (xy 237.49 60.96)
+			(xy 316.23 96.52) (xy 281.94 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8dd343dc-384c-45d4-89aa-1c6a4d3029bb")
+		(uuid "8ab3c03d-7692-4cca-b336-eed71a34363e")
 	)
 	(wire
 		(pts
-			(xy 83.82 54.61) (xy 83.82 60.96)
+			(xy 241.3 96.52) (xy 275.59 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e4c99d0-989e-46b1-9b26-f6c48107b2df")
+		(uuid "909be7d7-70b0-4770-8fe7-ded6dbe70ca8")
 	)
 	(wire
 		(pts
-			(xy 124.46 54.61) (xy 124.46 60.96)
+			(xy 196.85 123.19) (xy 201.93 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f883eab-8556-4aaf-950e-fd5d6a1d282c")
+		(uuid "91b47941-47cc-4a7c-aa89-419071d4c6f9")
 	)
 	(wire
 		(pts
-			(xy 311.15 86.36) (xy 320.04 86.36)
+			(xy 201.93 96.52) (xy 236.22 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90d839c4-bd68-4491-be35-a0ad2a56874f")
+		(uuid "95c30a09-16bb-4a91-86b6-9b49816284df")
 	)
 	(wire
 		(pts
-			(xy 309.88 49.53) (xy 318.77 49.53)
+			(xy 81.28 123.19) (xy 85.09 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9662447a-8ed8-447d-8a15-00b6ede59580")
+		(uuid "99a37012-4ce7-44aa-ab74-e4e8d8bc8a2f")
 	)
 	(wire
 		(pts
-			(xy 116.84 49.53) (xy 124.46 49.53)
+			(xy 161.29 128.27) (xy 161.29 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b2ca5b0-5722-4919-8c0a-28642bd855c4")
+		(uuid "9adb3e2e-1816-489d-9f5b-0bc34742c7cf")
 	)
 	(wire
 		(pts
-			(xy 116.84 54.61) (xy 124.46 54.61)
+			(xy 396.24 96.52) (xy 361.95 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b59b216-2729-41c5-bcd8-5ee1556796a9")
+		(uuid "9b0a5eb9-3d04-4912-a416-d69b342ff159")
 	)
 	(wire
 		(pts
-			(xy 271.78 49.53) (xy 279.4 49.53)
+			(xy 200.66 85.09) (xy 200.66 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d89f0e6-ad8e-4341-830c-305d826a70be")
+		(uuid "9b4bbc13-40a2-4bdf-80a1-2b47df34ef49")
 	)
 	(wire
 		(pts
-			(xy 38.1 49.53) (xy 46.99 49.53)
+			(xy 316.23 85.09) (xy 316.23 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8770ba-797e-40de-be9f-78f00b2e2eca")
+	)
+	(wire
+		(pts
+			(xy 316.23 52.07) (xy 356.87 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e39e94a-3175-4c88-9419-fd146fe1a188")
+	)
+	(wire
+		(pts
+			(xy 119.38 52.07) (xy 119.38 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8f6351-bafd-4e61-a2bc-6f627bc39594")
+	)
+	(wire
+		(pts
+			(xy 316.23 74.93) (xy 316.23 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42e03f1-50fc-406d-b349-c9fb43e20062")
+	)
+	(wire
+		(pts
+			(xy 236.22 74.93) (xy 236.22 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a436eb08-ba53-473e-8513-61acb38ee067")
+	)
+	(wire
+		(pts
+			(xy 80.01 85.09) (xy 80.01 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97909be-1927-40ef-8ed7-bd368aa0c867")
+	)
+	(wire
+		(pts
+			(xy 119.38 80.01) (xy 121.92 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac05825c-16fa-4bd5-b3b8-872570b50df5")
+	)
+	(wire
+		(pts
+			(xy 39.37 80.01) (xy 44.45 80.01)
 		)
 		(stroke
 			(width 0)
@@ -894,227 +1318,307 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 60.96) (xy 271.78 60.96)
+			(xy 80.01 97.79) (xy 85.09 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2380b54-71ae-426a-bcb8-a625431086a0")
+		(uuid "af731e17-427e-4ace-ad27-cf76a82ddf8f")
 	)
 	(wire
 		(pts
-			(xy 349.25 54.61) (xy 355.6 54.61)
+			(xy 119.38 85.09) (xy 119.38 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd29e0e2-7387-4fbc-92a7-7255add43104")
+		(uuid "b027aa7f-4d62-40a0-924d-a4d223300a8d")
 	)
 	(wire
 		(pts
-			(xy 271.78 60.96) (xy 242.57 60.96)
+			(xy 201.93 96.52) (xy 201.93 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd82e788-f252-4ecf-9f72-c8256c2600ea")
+		(uuid "b2db3f4a-514b-4092-a429-549b0b8f9349")
 	)
 	(wire
 		(pts
-			(xy 320.04 81.28) (xy 314.96 81.28)
+			(xy 236.22 96.52) (xy 241.3 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c773756f-7452-408a-862c-ce23ec22922c")
+		(uuid "b3c069d1-840f-4a3d-8632-af660fa01344")
 	)
 	(wire
 		(pts
-			(xy 48.26 60.96) (xy 83.82 60.96)
+			(xy 85.09 151.13) (xy 123.19 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c913ca64-e282-49c2-aa42-7ed2bfc296b5")
+		(uuid "b4e831a6-2967-4f82-b012-8766a78df4ff")
 	)
 	(wire
 		(pts
-			(xy 77.47 54.61) (xy 83.82 54.61)
+			(xy 361.95 96.52) (xy 361.95 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c951ef2b-4305-48a0-8a89-67b50d6ca62b")
+		(uuid "b9d26832-7109-482e-ba9f-c893647de640")
 	)
 	(wire
 		(pts
-			(xy 280.67 81.28) (xy 271.78 81.28)
+			(xy 119.38 97.79) (xy 123.19 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9cf28bd-b463-43fe-81f5-0a54e71d2a9c")
+		(uuid "bb23be07-a0b3-4529-a9f9-c8f2014b7653")
 	)
 	(wire
 		(pts
-			(xy 242.57 60.96) (xy 237.49 60.96)
+			(xy 45.72 151.13) (xy 85.09 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ceb24b9d-3efa-4de1-aa9f-d11750410382")
+		(uuid "bd67566b-b80f-4e66-b706-b66a5b44c68c")
 	)
 	(wire
 		(pts
-			(xy 271.78 54.61) (xy 271.78 60.96)
+			(xy 275.59 80.01) (xy 280.67 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d62c1935-2ed6-4306-8a1f-0ba00fb513b7")
+		(uuid "bfd2931f-25ac-4128-b081-3b91f1f5c366")
 	)
 	(wire
 		(pts
-			(xy 271.78 81.28) (xy 271.78 60.96)
+			(xy 276.86 123.19) (xy 281.94 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da0460eb-34fe-4eea-8ccf-9dca84ab2127")
+		(uuid "c4da583c-7701-400d-80bd-d82be37398ca")
 	)
 	(wire
 		(pts
-			(xy 125.73 60.96) (xy 125.73 81.28)
+			(xy 361.95 128.27) (xy 361.95 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1b80a8a-30c3-4281-9152-971fb2656b4c")
+		(uuid "c53d0935-f4d2-415d-95c4-3702995e8223")
 	)
 	(wire
 		(pts
-			(xy 391.16 54.61) (xy 391.16 60.96)
+			(xy 396.24 85.09) (xy 396.24 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e385c341-4757-4a35-bb60-692f02b3416d")
+		(uuid "c573405c-23d0-4b88-ae86-3284d9a9f9b1")
 	)
 	(wire
 		(pts
-			(xy 314.96 54.61) (xy 314.96 60.96)
+			(xy 157.48 85.09) (xy 157.48 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3e097bb-1b56-49d9-ad59-2a09c14d848a")
+		(uuid "c8d7db75-0aa0-401f-aac0-ff00abc2e936")
 	)
 	(wire
 		(pts
-			(xy 391.16 49.53) (xy 400.05 49.53)
+			(xy 322.58 96.52) (xy 322.58 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed57e3b2-efd2-47aa-9726-c454de9071f1")
+		(uuid "ca657cf0-33a0-401d-a359-ea40ca5c9082")
 	)
 	(wire
 		(pts
-			(xy 87.63 60.96) (xy 124.46 60.96)
+			(xy 85.09 97.79) (xy 119.38 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f073a3ba-2f96-4774-ab62-4ba065db113e")
+		(uuid "cd040518-ea21-481a-80cc-10a1711f4717")
 	)
 	(wire
 		(pts
-			(xy 154.94 54.61) (xy 154.94 60.96)
+			(xy 123.19 128.27) (xy 123.19 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1c07246-6c8f-4685-a6b8-bac0fb092447")
+		(uuid "ce4f7e62-b54a-4a50-a888-2b5b09d4105d")
 	)
 	(wire
 		(pts
-			(xy 194.31 49.53) (xy 201.93 49.53)
+			(xy 45.72 97.79) (xy 80.01 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f393a078-4c69-42a8-90b5-94e43a8e7485")
+		(uuid "d26a14a6-f22f-4c09-b432-e8cfe7722b0e")
 	)
 	(wire
 		(pts
-			(xy 400.05 49.53) (xy 400.05 86.36)
+			(xy 161.29 97.79) (xy 161.29 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f57be8e6-75b3-4820-b1ac-1a2a0497925e")
+		(uuid "d5f23494-4e79-400e-9746-b3923c08146c")
 	)
 	(wire
 		(pts
-			(xy 314.96 81.28) (xy 314.96 60.96)
+			(xy 201.93 128.27) (xy 201.93 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f689b902-340c-45be-a382-e6d854779684")
+		(uuid "dac17e47-7d23-4c31-bcda-c53e1e75e7ca")
 	)
 	(wire
 		(pts
-			(xy 355.6 81.28) (xy 355.6 60.96)
+			(xy 85.09 128.27) (xy 85.09 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7dd3c9b-82ab-4ae9-9923-cc023906091e")
+		(uuid "e5cdea04-b94a-4389-b019-fd7578e1a7f8")
 	)
 	(wire
 		(pts
-			(xy 233.68 86.36) (xy 242.57 86.36)
+			(xy 317.5 123.19) (xy 322.58 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb4d1bc5-60ae-4056-b23f-310e043d7727")
+		(uuid "ec97790b-6c3b-47a2-91bb-fa66b0bf2027")
 	)
 	(wire
 		(pts
-			(xy 273.05 86.36) (xy 280.67 86.36)
+			(xy 361.95 96.52) (xy 356.87 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe816ba5-24b9-4466-a341-83bfed6ef636")
+		(uuid "ed2b427d-0a64-4c2f-ae36-14654f5e377d")
+	)
+	(wire
+		(pts
+			(xy 157.48 80.01) (xy 160.02 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f0f550-dcca-410e-a9e3-f686092e9e7c")
+	)
+	(wire
+		(pts
+			(xy 241.3 151.13) (xy 281.94 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f1296a-32c5-4087-bf02-8e2bfc34ef1d")
+	)
+	(wire
+		(pts
+			(xy 80.01 80.01) (xy 83.82 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f298eb9c-3aa6-4eda-8eea-538517c7d6a1")
+	)
+	(wire
+		(pts
+			(xy 281.94 96.52) (xy 275.59 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33079e6-a732-4bc5-a2cf-1510c0ee16b6")
+	)
+	(wire
+		(pts
+			(xy 316.23 80.01) (xy 321.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5cdc685-1019-411f-9a43-d2d94672b1a0")
+	)
+	(wire
+		(pts
+			(xy 201.93 151.13) (xy 241.3 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf90fb9-f45c-45b7-adc5-9270fbb09c01")
+	)
+	(wire
+		(pts
+			(xy 281.94 128.27) (xy 281.94 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "febe01f9-d673-483a-9787-aacc28f86cb1")
+	)
+	(wire
+		(pts
+			(xy 356.87 52.07) (xy 356.87 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb93705-0179-4747-a0a3-a9cb4ea5e357")
 	)
 	(text "Link Belt\n"
 		(exclude_from_sim no)
-		(at 206.502 33.528 0)
+		(at 220.218 63.754 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1124,7 +1628,7 @@
 	)
 	(text "DVU"
 		(exclude_from_sim no)
-		(at 323.342 33.528 0)
+		(at 337.058 63.754 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1134,7 +1638,7 @@
 	)
 	(text "Lansdale"
 		(exclude_from_sim no)
-		(at 51.562 33.528 0)
+		(at 61.722 63.754 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1144,7 +1648,7 @@
 	)
 	(text "Fortuna\n"
 		(exclude_from_sim no)
-		(at 129.032 33.528 0)
+		(at 142.748 63.754 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1154,7 +1658,7 @@
 	)
 	(text "Doylestown"
 		(exclude_from_sim no)
-		(at 365.252 33.528 0)
+		(at 378.968 63.754 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1164,7 +1668,7 @@
 	)
 	(text "9th Street"
 		(exclude_from_sim no)
-		(at 90.932 33.528 0)
+		(at 104.648 63.754 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1174,7 +1678,7 @@
 	)
 	(text "Chalfont"
 		(exclude_from_sim no)
-		(at 245.872 33.528 0)
+		(at 259.588 63.754 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1184,7 +1688,7 @@
 	)
 	(text "New Britain"
 		(exclude_from_sim no)
-		(at 283.972 33.528 0)
+		(at 297.688 63.754 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1194,7 +1698,7 @@
 	)
 	(text "Colmar"
 		(exclude_from_sim no)
-		(at 168.402 33.528 0)
+		(at 182.118 63.754 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1215,7 +1719,7 @@
 	)
 	(global_label "Pennbrook_INBOUND"
 		(shape output)
-		(at 38.1 49.53 180)
+		(at 39.37 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1225,7 +1729,7 @@
 		)
 		(uuid "4238cd17-0e17-4c02-a15a-6c780a4e4320")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.7625 49.53 0)
+			(at 17.0325 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,7 +1741,7 @@
 	)
 	(global_label "Pennbrook_OUTBOUND"
 		(shape output)
-		(at 38.1 86.36 180)
+		(at 39.37 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1247,7 +1751,7 @@
 		)
 		(uuid "a1491205-d2de-4677-900b-f8a9104375c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.0692 86.36 0)
+			(at 15.3392 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1258,99 +1762,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 87.63 91.44 180)
+		(lib_id "TrainTrackr-lib:IN-PI33TBTPRPGPB")
+		(at 219.71 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "00e756a5-2358-46b6-9424-d0ae57e7d048")
-		(property "Reference" "#PWR051"
-			(at 87.63 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 87.63 96.52 0)
+		(uuid "10dc3808-312a-40c9-82ab-c6dcc68b8c55")
+		(property "Reference" "D44"
+			(at 219.71 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 87.63 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 87.63 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5a99257-fc33-4bb4-9cc4-c81def7376b1")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrainTrackr-lib:FZ2812-5050")
-		(at 334.01 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04dc7b51-041a-4222-bdd0-3e88340ff2ea")
-		(property "Reference" "U49"
-			(at 334.01 36.83 0)
+		(property "Value" "IN-PI33TBTPRPGPB"
+			(at 219.71 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FZ2812-5050"
-			(at 334.01 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TrainTrackr-footprints:LED_FZ2812-5050"
-			(at 340.106 61.468 0)
+		(property "Footprint" "TrainTrackr-footprints:LED_IN-PI33TBTPRPGPB"
+			(at 219.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,7 +1798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 334.01 49.53 0)
+			(at 219.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,7 +1807,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 334.01 49.53 0)
+			(at 219.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1377,8 +1815,48 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1"
-			(at 325.12 69.596 0)
+		(property "MF" "Inolux"
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Inolux"
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+			(at 219.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,7 +1866,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 339.344 63.246 0)
+			(at 219.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1397,8 +1875,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "FZ2812-5050"
-			(at 330.962 65.024 0)
+		(property "PARTREV" "1.2"
+			(at 219.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1407,8 +1885,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 327.406 66.548 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+			(at 219.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,8 +1895,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Feztek"
-			(at 327.152 67.818 0)
+		(property "MP" "IN-PI33TBTPRPGPB"
+			(at 219.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,55 +1905,85 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "a954c3ec-e5ee-4fd9-b0a9-317a04cf7a55")
+		(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "7be76a06-625d-448d-9df3-d5248ad3b5ad")
-		)
-		(pin "1"
-			(uuid "6812deab-7e90-4c73-bab4-864deacbf2f5")
+			(uuid "2f11ed37-f2a7-4939-ac34-b2c3985038a1")
 		)
 		(pin "2"
-			(uuid "ca3e77dd-5393-4303-999c-a6dc046986de")
+			(uuid "f0c97037-32a0-4241-8c2c-09cc61e8b5a9")
+		)
+		(pin "1"
+			(uuid "881bb0aa-f247-4f30-9a8c-711f9874c5f2")
+		)
+		(pin "3"
+			(uuid "98e0b5bf-943a-4863-844e-c1dd0136ba8f")
 		)
 		(instances
 			(project "TrainTrackr"
 				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "U49")
+					(reference "D44")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "TrainTrackr-lib:FZ2812-5050")
-		(at 256.54 49.53 0)
+		(lib_id "TrainTrackr-lib:IN-PI33TBTPRPGPB")
+		(at 102.87 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "09894042-1f25-4594-a591-1fc0aafb0abe")
-		(property "Reference" "U45"
-			(at 256.54 36.83 0)
+		(uuid "2d8293bc-ac85-400b-a193-284d6e8473f2")
+		(property "Reference" "D38"
+			(at 102.87 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FZ2812-5050"
-			(at 256.54 39.37 0)
+		(property "Value" "IN-PI33TBTPRPGPB"
+			(at 102.87 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TrainTrackr-footprints:LED_FZ2812-5050"
-			(at 262.636 61.468 0)
+		(property "Footprint" "TrainTrackr-footprints:LED_IN-PI33TBTPRPGPB"
+			(at 102.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1485,7 +1993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 49.53 0)
+			(at 102.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1494,7 +2002,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 49.53 0)
+			(at 102.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,8 +2010,48 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1"
-			(at 247.65 69.596 0)
+		(property "MF" "Inolux"
+			(at 102.87 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+			(at 102.87 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Inolux"
+			(at 102.87 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 102.87 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+			(at 102.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +2061,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 261.874 63.246 0)
+			(at 102.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,8 +2070,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "FZ2812-5050"
-			(at 253.492 65.024 0)
+		(property "PARTREV" "1.2"
+			(at 102.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,8 +2080,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 249.936 66.548 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+			(at 102.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1542,8 +2090,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Feztek"
-			(at 249.682 67.818 0)
+		(property "MP" "IN-PI33TBTPRPGPB"
+			(at 102.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,187 +2100,85 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "ee54e65f-5a3c-4654-9983-a3c7f54edf87")
+		(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+			(at 102.87 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 102.87 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 102.87 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "ca4abcb8-2ae1-4dd4-9ee5-6c16805e99fc")
-		)
-		(pin "1"
-			(uuid "5ef541b2-e5bf-4e76-aedc-c3828df40834")
+			(uuid "3edb08c6-7529-4f66-ba29-505a506034f7")
 		)
 		(pin "2"
-			(uuid "20f85b00-fe7c-465c-a8e4-d086ac7f0389")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "U45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 391.16 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12dc10ba-7e71-4d97-8ad7-e41ff29051bb")
-		(property "Reference" "#PWR043"
-			(at 391.16 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 391.16 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 391.16 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 391.16 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 391.16 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "d0a2cc86-00d8-4a50-9884-7bc0556735f2")
 		)
 		(pin "1"
-			(uuid "4ef26bcb-00da-4a22-bd46-18b412e3726f")
+			(uuid "8d3b0a3b-337a-46c6-8099-ddf7e8fe3d38")
+		)
+		(pin "3"
+			(uuid "bbdc73a4-405c-4101-8ad6-d220b48a836a")
 		)
 		(instances
 			(project "TrainTrackr"
 				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR043")
+					(reference "D38")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 194.31 44.45 0)
+		(lib_id "TrainTrackr-lib:IN-PI33TBTPRPGPB")
+		(at 379.73 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1373abd8-23e4-4f66-a53a-d55d3c0afb11")
-		(property "Reference" "#PWR038"
-			(at 194.31 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 194.31 39.37 0)
+		(uuid "34433d6c-3a8c-482a-8c7d-35e42f037040")
+		(property "Reference" "D52"
+			(at 379.73 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 194.31 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 194.31 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76bef64b-cee7-4e29-ab9d-4e0fbdb74ad7")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrainTrackr-lib:FZ2812-5050")
-		(at 377.19 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1662102f-6098-474a-ba25-9f96b6443dc3")
-		(property "Reference" "U52"
-			(at 377.19 73.66 0)
+		(property "Value" "IN-PI33TBTPRPGPB"
+			(at 379.73 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FZ2812-5050"
-			(at 377.19 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TrainTrackr-footprints:LED_FZ2812-5050"
-			(at 371.094 74.422 0)
+		(property "Footprint" "TrainTrackr-footprints:LED_IN-PI33TBTPRPGPB"
+			(at 379.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,7 +2188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 377.19 86.36 0)
+			(at 379.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +2197,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 377.19 86.36 0)
+			(at 379.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,8 +2205,48 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1"
-			(at 386.08 66.294 0)
+		(property "MF" "Inolux"
+			(at 379.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+			(at 379.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Inolux"
+			(at 379.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 379.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+			(at 379.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +2256,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 371.856 72.644 0)
+			(at 379.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,8 +2265,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "FZ2812-5050"
-			(at 380.238 70.866 0)
+		(property "PARTREV" "1.2"
+			(at 379.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,8 +2275,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 383.794 69.342 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+			(at 379.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1799,8 +2285,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Feztek"
-			(at 384.048 68.072 0)
+		(property "MP" "IN-PI33TBTPRPGPB"
+			(at 379.73 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,121 +2295,85 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "bfeb5d8c-2610-457e-845b-1a777fec1454")
+		(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+			(at 379.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 379.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 379.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "5f814e7a-bec3-4a84-bf76-ae6f2cf67c41")
-		)
-		(pin "1"
-			(uuid "1fb81a91-ae24-4978-a020-cea58d3ce283")
+			(uuid "982f0821-8a18-4988-b43c-ec8c43956b53")
 		)
 		(pin "2"
-			(uuid "bd7a62e1-8d3d-4bdd-b234-f109643b3b68")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "U52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 116.84 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bdf3b3d-69c2-41db-be2e-5b041c81059c")
-		(property "Reference" "#PWR036"
-			(at 116.84 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 116.84 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 116.84 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "0c7b991b-71b7-494f-9921-fb1da38168cf")
 		)
 		(pin "1"
-			(uuid "c6e17a3f-406f-4474-bdf3-f9f0764f0fc2")
+			(uuid "af646f45-264f-488c-9710-cd04c61a366b")
+		)
+		(pin "3"
+			(uuid "85594160-e271-4321-9cf7-e817a825023a")
 		)
 		(instances
 			(project "TrainTrackr"
 				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR036")
+					(reference "D52")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "TrainTrackr-lib:FZ2812-5050")
-		(at 140.97 86.36 180)
+		(lib_id "TrainTrackr-lib:IN-PI33TBTPRPGPB")
+		(at 298.45 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "22020247-8f09-4bdf-8ce0-90a9845c8884")
-		(property "Reference" "U40"
-			(at 140.97 73.66 0)
+		(uuid "3d757ccb-a12d-41e1-975b-9e1e8071b38a")
+		(property "Reference" "D47"
+			(at 298.45 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FZ2812-5050"
-			(at 140.97 76.2 0)
+		(property "Value" "IN-PI33TBTPRPGPB"
+			(at 298.45 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TrainTrackr-footprints:LED_FZ2812-5050"
-			(at 134.874 74.422 0)
+		(property "Footprint" "TrainTrackr-footprints:LED_IN-PI33TBTPRPGPB"
+			(at 298.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,7 +2383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 86.36 0)
+			(at 298.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,7 +2392,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 86.36 0)
+			(at 298.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,8 +2400,48 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1"
-			(at 149.86 66.294 0)
+		(property "MF" "Inolux"
+			(at 298.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+			(at 298.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Inolux"
+			(at 298.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 298.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+			(at 298.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,7 +2451,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 135.636 72.644 0)
+			(at 298.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,8 +2460,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "FZ2812-5050"
-			(at 144.018 70.866 0)
+		(property "PARTREV" "1.2"
+			(at 298.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,8 +2470,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 147.574 69.342 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+			(at 298.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,8 +2480,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Feztek"
-			(at 147.828 68.072 0)
+		(property "MP" "IN-PI33TBTPRPGPB"
+			(at 298.45 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2000,22 +2490,52 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "af823598-6eea-400b-ba2a-7806a4c8034b")
+		(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+			(at 298.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 298.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 298.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "83c3849e-836d-4f2d-a893-19352d189412")
-		)
-		(pin "1"
-			(uuid "1e957a18-5d9e-403c-8541-b87151f72598")
+			(uuid "8269c398-f5f0-4052-b7b9-6af24f788082")
 		)
 		(pin "2"
-			(uuid "b56f7968-61e9-461c-9860-85bc7d2acbf2")
+			(uuid "877bcefb-4105-41c7-b618-f94536a1fa30")
+		)
+		(pin "1"
+			(uuid "7a543337-ed3e-48af-82c0-bbb5ee0ff836")
+		)
+		(pin "3"
+			(uuid "227681c2-3e07-4af3-8dcd-7497974187b0")
 		)
 		(instances
 			(project "TrainTrackr"
 				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "U40")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -2023,16 +2543,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 77.47 44.45 0)
+		(at 198.12 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2263bf80-abf9-4c7a-bd7b-19c95eb52763")
-		(property "Reference" "#PWR035"
-			(at 77.47 48.26 0)
+		(uuid "4ea6d7b4-b8e1-40c4-a8fe-bf67eda20d4f")
+		(property "Reference" "#PWR07"
+			(at 198.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,7 +2561,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 77.47 39.37 0)
+			(at 198.12 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,7 +2569,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 44.45 0)
+			(at 198.12 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,7 +2578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 44.45 0)
+			(at 198.12 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2587,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 77.47 44.45 0)
+			(at 198.12 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,45 +2596,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "21327b6d-ec0b-4a76-a507-b19a2c786f79")
+			(uuid "b69b88b2-aded-44d9-add0-c76279267c34")
 		)
 		(instances
-			(project "TrainTrackr"
+			(project ""
 				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR035")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "TrainTrackr-lib:FZ2812-5050")
-		(at 295.91 86.36 180)
+		(lib_id "TrainTrackr-lib:IN-PI33TBTPRPGPB")
+		(at 177.8 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2707d018-2e28-4c44-8b3a-9084af5fd19d")
-		(property "Reference" "U48"
-			(at 295.91 73.66 0)
+		(uuid "646559b5-c7c1-4f74-8a9a-188586f90c6e")
+		(property "Reference" "D41"
+			(at 177.8 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FZ2812-5050"
-			(at 295.91 76.2 0)
+		(property "Value" "IN-PI33TBTPRPGPB"
+			(at 177.8 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TrainTrackr-footprints:LED_FZ2812-5050"
-			(at 289.814 74.422 0)
+		(property "Footprint" "TrainTrackr-footprints:LED_IN-PI33TBTPRPGPB"
+			(at 177.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 295.91 86.36 0)
+			(at 177.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2653,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 295.91 86.36 0)
+			(at 177.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,8 +2661,48 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1"
-			(at 304.8 66.294 0)
+		(property "MF" "Inolux"
+			(at 177.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+			(at 177.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Inolux"
+			(at 177.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 177.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+			(at 177.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,7 +2712,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 290.576 72.644 0)
+			(at 177.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2161,8 +2721,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "FZ2812-5050"
-			(at 298.958 70.866 0)
+		(property "PARTREV" "1.2"
+			(at 177.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,8 +2731,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 302.514 69.342 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+			(at 177.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,8 +2741,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Feztek"
-			(at 302.768 68.072 0)
+		(property "MP" "IN-PI33TBTPRPGPB"
+			(at 177.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,55 +2751,85 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "72b2c48a-9b22-4dbe-9ef8-943c445675a6")
+		(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+			(at 177.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 177.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 177.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "d3391e0e-e2b7-4a3b-b4d1-7cf9a71b9331")
-		)
-		(pin "1"
-			(uuid "67485be2-db99-469c-a526-a64babaa3bf4")
+			(uuid "c923be58-f5a8-4f61-acc1-437abd6913ac")
 		)
 		(pin "2"
-			(uuid "34f88b40-f071-4bc3-9d5d-a9f3ed255569")
+			(uuid "981f0cc7-617b-4c3d-b987-92d00afc5539")
+		)
+		(pin "1"
+			(uuid "ede8dad5-950a-47ce-92cb-36c28656a242")
+		)
+		(pin "3"
+			(uuid "ffe5eef2-1964-4762-b4bf-1ebabe1cc627")
 		)
 		(instances
 			(project "TrainTrackr"
 				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "U48")
+					(reference "D41")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "TrainTrackr-lib:FZ2812-5050")
-		(at 179.07 49.53 0)
+		(lib_id "TrainTrackr-lib:IN-PI33TBTPRPGPB")
+		(at 340.36 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3b8c1a42-cab0-4f61-883f-c513df7bb31b")
-		(property "Reference" "U41"
-			(at 179.07 36.83 0)
+		(uuid "786ba03c-a6ce-4a5b-b779-6ade28184b3e")
+		(property "Reference" "D50"
+			(at 340.36 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FZ2812-5050"
-			(at 179.07 39.37 0)
+		(property "Value" "IN-PI33TBTPRPGPB"
+			(at 340.36 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TrainTrackr-footprints:LED_FZ2812-5050"
-			(at 185.166 61.468 0)
+		(property "Footprint" "TrainTrackr-footprints:LED_IN-PI33TBTPRPGPB"
+			(at 340.36 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,7 +2839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 49.53 0)
+			(at 340.36 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +2848,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 49.53 0)
+			(at 340.36 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,8 +2856,48 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1"
-			(at 170.18 69.596 0)
+		(property "MF" "Inolux"
+			(at 340.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+			(at 340.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Inolux"
+			(at 340.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 340.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+			(at 340.36 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2277,7 +2907,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 184.404 63.246 0)
+			(at 340.36 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,8 +2916,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "FZ2812-5050"
-			(at 176.022 65.024 0)
+		(property "PARTREV" "1.2"
+			(at 340.36 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,8 +2926,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 172.466 66.548 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+			(at 340.36 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,8 +2936,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Feztek"
-			(at 172.212 67.818 0)
+		(property "MP" "IN-PI33TBTPRPGPB"
+			(at 340.36 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,55 +2946,85 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "a0fd41fc-b36a-4822-8942-a8a07ec52b05")
+		(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+			(at 340.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 340.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 340.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "bb15776d-e5ea-4420-8928-be063f6eb85b")
-		)
-		(pin "1"
-			(uuid "5662a641-bada-41f5-8c81-7b92b6741520")
+			(uuid "2c5bb729-18c5-446f-ad46-29a15a012189")
 		)
 		(pin "2"
-			(uuid "fc762015-2a01-42c6-b0eb-e35ac1525f6c")
+			(uuid "ade16175-ca3b-4a6b-b0df-50f492d33142")
+		)
+		(pin "1"
+			(uuid "f885510b-d651-4f10-856d-dd9379f25fe2")
+		)
+		(pin "3"
+			(uuid "9c7a52b2-02c0-4954-9bac-6049bac5d287")
 		)
 		(instances
 			(project "TrainTrackr"
 				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "U41")
+					(reference "D50")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "TrainTrackr-lib:FZ2812-5050")
-		(at 102.87 86.36 180)
+		(lib_id "TrainTrackr-lib:IN-PI33TBTPRPGPB")
+		(at 63.5 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "44dcf167-e339-4568-a81b-f96b6359cb36")
-		(property "Reference" "U38"
-			(at 102.87 73.66 0)
+		(uuid "7b1f2b22-9894-41da-a43e-01ac66a78af2")
+		(property "Reference" "D36"
+			(at 63.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FZ2812-5050"
-			(at 102.87 76.2 0)
+		(property "Value" "IN-PI33TBTPRPGPB"
+			(at 63.5 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TrainTrackr-footprints:LED_FZ2812-5050"
-			(at 96.774 74.422 0)
+		(property "Footprint" "TrainTrackr-footprints:LED_IN-PI33TBTPRPGPB"
+			(at 63.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +3034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 86.36 0)
+			(at 63.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,7 +3043,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 86.36 0)
+			(at 63.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,8 +3051,48 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1"
-			(at 111.76 66.294 0)
+		(property "MF" "Inolux"
+			(at 63.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+			(at 63.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Inolux"
+			(at 63.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 63.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+			(at 63.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +3102,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 97.536 72.644 0)
+			(at 63.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,8 +3111,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "FZ2812-5050"
-			(at 105.918 70.866 0)
+		(property "PARTREV" "1.2"
+			(at 63.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,8 +3121,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 109.474 69.342 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+			(at 63.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,8 +3131,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Feztek"
-			(at 109.728 68.072 0)
+		(property "MP" "IN-PI33TBTPRPGPB"
+			(at 63.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,55 +3141,85 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "7b651e29-f4bb-418d-9a1e-a6139e1e7e22")
+		(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+			(at 63.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 63.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 63.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "f5f354ad-e23a-4c90-bfe7-de2b22ade12b")
-		)
-		(pin "1"
-			(uuid "177a8401-0faa-4269-b593-9b9f1d829b63")
+			(uuid "55bb3f7b-0110-41fd-be71-d23606f6caa5")
 		)
 		(pin "2"
-			(uuid "4e284bf8-76eb-4542-a8d9-8b040c4ed936")
+			(uuid "7432f926-d61a-454b-be8d-da6219358a21")
+		)
+		(pin "1"
+			(uuid "aa440427-8786-4de6-bda1-91471a84f9a0")
+		)
+		(pin "3"
+			(uuid "d2d4ff9f-c37f-490f-b580-c932a9710462")
 		)
 		(instances
 			(project "TrainTrackr"
 				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "U38")
+					(reference "D36")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "TrainTrackr-lib:FZ2812-5050")
-		(at 63.5 86.36 180)
+		(lib_id "TrainTrackr-lib:IN-PI33TBTPRPGPB")
+		(at 62.23 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "49818cbc-a660-491d-9119-2e630b0e76b6")
-		(property "Reference" "U36"
-			(at 63.5 73.66 0)
+		(uuid "88f5c132-42f5-4ae5-a0a1-024a23b85d5a")
+		(property "Reference" "D35"
+			(at 62.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FZ2812-5050"
-			(at 63.5 76.2 0)
+		(property "Value" "IN-PI33TBTPRPGPB"
+			(at 62.23 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TrainTrackr-footprints:LED_FZ2812-5050"
-			(at 57.404 74.422 0)
+		(property "Footprint" "TrainTrackr-footprints:LED_IN-PI33TBTPRPGPB"
+			(at 62.23 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +3229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 86.36 0)
+			(at 62.23 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +3238,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 86.36 0)
+			(at 62.23 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,8 +3246,48 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1"
-			(at 72.39 66.294 0)
+		(property "MF" "Inolux"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Inolux"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+			(at 62.23 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +3297,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 58.166 72.644 0)
+			(at 62.23 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,8 +3306,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "FZ2812-5050"
-			(at 66.548 70.866 0)
+		(property "PARTREV" "1.2"
+			(at 62.23 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,8 +3316,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 70.104 69.342 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+			(at 62.23 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,8 +3326,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Feztek"
-			(at 70.358 68.072 0)
+		(property "MP" "IN-PI33TBTPRPGPB"
+			(at 62.23 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,984 +3336,52 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "81c835b5-e405-4f21-ad42-0da31985f0aa")
+		(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "efe3a276-8e4c-4b38-b571-ef91556a497e")
-		)
-		(pin "1"
-			(uuid "2d38bac7-ca86-45f4-b678-64d6e63fb2ba")
+			(uuid "4b7bde55-5efd-4265-8647-ff2c9b6dfabe")
 		)
 		(pin "2"
-			(uuid "960e3c7e-89ac-457e-83d8-a7219548159f")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "U36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 309.88 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d2b4fff-24e8-4898-af56-99be44f3a514")
-		(property "Reference" "#PWR041"
-			(at 309.88 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 309.88 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 309.88 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 309.88 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "433a5f30-82cf-4306-9b90-adf4bd3adecd")
 		)
 		(pin "1"
-			(uuid "f1a7399d-bf29-4b2e-b5cf-a05aca5480fa")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrainTrackr-lib:FZ2812-5050")
-		(at 294.64 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e4f1ff3-7e17-4343-a04e-0dd57f1544c2")
-		(property "Reference" "U47"
-			(at 294.64 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FZ2812-5050"
-			(at 294.64 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TrainTrackr-footprints:LED_FZ2812-5050"
-			(at 300.736 61.468 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 294.64 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 294.64 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1"
-			(at 285.75 69.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 299.974 63.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "FZ2812-5050"
-			(at 291.592 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 288.036 66.548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Feztek"
-			(at 287.782 67.818 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+			(uuid "6e1dd9bb-d792-4bda-8ca5-c6efec8fd8b4")
 		)
 		(pin "3"
-			(uuid "d316454c-0514-4361-a468-da75eee458cd")
-		)
-		(pin "4"
-			(uuid "d8229cc0-3506-47fb-915a-31e52f473653")
-		)
-		(pin "1"
-			(uuid "c6c6c80f-e4f5-47aa-9a37-aaa8dd78d9e6")
-		)
-		(pin "2"
-			(uuid "9e9b670a-c971-4bc1-a60f-9f3a64bc2a80")
+			(uuid "8a7caaac-f2b2-417f-a137-5af978c6fde1")
 		)
 		(instances
 			(project "TrainTrackr"
 				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "U47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 361.95 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54b77bcd-fd72-4a5f-ae88-fb85c5b5cc32")
-		(property "Reference" "#PWR044"
-			(at 361.95 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 361.95 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 361.95 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 361.95 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 361.95 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad5f6447-774a-4635-b65d-c7325e5cc09a")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrainTrackr-lib:FZ2812-5050")
-		(at 257.81 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5904b1d3-2111-43cb-82a5-63269c52f2de")
-		(property "Reference" "U46"
-			(at 257.81 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FZ2812-5050"
-			(at 257.81 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TrainTrackr-footprints:LED_FZ2812-5050"
-			(at 251.714 74.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 257.81 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1"
-			(at 266.7 66.294 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 252.476 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "FZ2812-5050"
-			(at 260.858 70.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 264.414 69.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Feztek"
-			(at 264.668 68.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "01cf29c6-347f-4655-b772-23526487cf50")
-		)
-		(pin "4"
-			(uuid "427018f0-f4d2-4c98-b3b5-ab509803905b")
-		)
-		(pin "1"
-			(uuid "c316ec91-637e-4126-97de-d3133385e280")
-		)
-		(pin "2"
-			(uuid "9918b712-f8d2-4d04-a46c-a97d04c962ec")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "U46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrainTrackr-lib:FZ2812-5050")
-		(at 139.7 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59b7e7c5-35b6-4467-892a-703048e3ae20")
-		(property "Reference" "U39"
-			(at 139.7 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FZ2812-5050"
-			(at 139.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TrainTrackr-footprints:LED_FZ2812-5050"
-			(at 145.796 61.468 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1"
-			(at 130.81 69.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 145.034 63.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "FZ2812-5050"
-			(at 136.652 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 133.096 66.548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Feztek"
-			(at 132.842 67.818 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "499fbf6f-0741-4ccc-82dd-1e6141172de4")
-		)
-		(pin "4"
-			(uuid "7c149698-561e-49e1-8c90-a58d8a93ac45")
-		)
-		(pin "1"
-			(uuid "c9608bfe-d8e6-4e86-8b28-c1f587f4e56f")
-		)
-		(pin "2"
-			(uuid "c1e9d1b1-6fb1-4262-8a2d-854d4907b29b")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "U39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 242.57 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a455236-2aa8-4b41-b5c1-6975cd71b29b")
-		(property "Reference" "#PWR047"
-			(at 242.57 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 242.57 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 242.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8886cdbe-4044-47f2-9158-7f7b14230a2f")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 320.04 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a594cbb-bab1-45d2-a4ac-24e352388352")
-		(property "Reference" "#PWR045"
-			(at 320.04 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 320.04 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 320.04 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c78fafc-490f-43d6-93db-6cebb118b191")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 203.2 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f4542fc-775d-46d5-a46a-059dde6adf71")
-		(property "Reference" "#PWR048"
-			(at 203.2 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 203.2 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 203.2 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13384969-8f7e-4a80-bcbd-2cb93e255d4c")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrainTrackr-lib:FZ2812-5050")
-		(at 375.92 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61469484-6389-4030-aa20-0add9d63d266")
-		(property "Reference" "U51"
-			(at 375.92 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FZ2812-5050"
-			(at 375.92 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TrainTrackr-footprints:LED_FZ2812-5050"
-			(at 382.016 61.468 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 375.92 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1"
-			(at 367.03 69.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 381.254 63.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "FZ2812-5050"
-			(at 372.872 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 369.316 66.548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Feztek"
-			(at 369.062 67.818 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f45c44cb-e873-456c-a21f-7d124a10e0d3")
-		)
-		(pin "4"
-			(uuid "74bfe4fc-2077-44a5-a2f8-594e6fb6dc09")
-		)
-		(pin "1"
-			(uuid "5d49eb1c-f061-470a-85ee-513d3f81f1d4")
-		)
-		(pin "2"
-			(uuid "e64e23bc-ddba-4fe2-89f1-ae46d2a89428")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "U51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 280.67 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "652f447e-ebe9-4bc1-8238-e66904659b6f")
-		(property "Reference" "#PWR046"
-			(at 280.67 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 280.67 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 280.67 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 280.67 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 280.67 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97966ec2-38b9-43db-be34-b1f5eab14c12")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 154.94 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "742c686c-ad25-4e20-9ad0-6b0367b62a78")
-		(property "Reference" "#PWR037"
-			(at 154.94 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 154.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 154.94 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "805b04a0-7a63-465f-bbd3-5652cccac4d5")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR037")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -3551,16 +3389,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 62.23 0)
+		(at 196.85 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7c35f8b6-cbf1-4188-a5f6-cdb1e04b296a")
-		(property "Reference" "#PWR055"
-			(at 237.49 68.58 0)
+		(uuid "a1413bd3-2a70-4f8d-a4e7-6bab544a3afa")
+		(property "Reference" "#PWR09"
+			(at 196.85 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3407,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 67.31 0)
+			(at 196.85 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +3415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 62.23 0)
+			(at 196.85 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,7 +3424,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 62.23 0)
+			(at 196.85 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,7 +3433,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 62.23 0)
+			(at 196.85 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,45 +3442,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "f07a3498-cbf5-4640-998e-346cc0adace1")
+			(uuid "186fbab5-5760-4a62-9f42-0d807c3fda90")
 		)
 		(instances
-			(project "TrainTrackr"
+			(project ""
 				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR055")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "TrainTrackr-lib:FZ2812-5050")
-		(at 217.17 49.53 0)
+		(lib_id "TrainTrackr-lib:IN-PI33TBTPRPGPB")
+		(at 378.46 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "828365b3-4b6f-4387-9b4b-be26d8468ca9")
-		(property "Reference" "U43"
-			(at 217.17 36.83 0)
+		(uuid "a1e6580b-008a-4133-b537-0f74a0fe00cc")
+		(property "Reference" "D51"
+			(at 378.46 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FZ2812-5050"
-			(at 217.17 39.37 0)
+		(property "Value" "IN-PI33TBTPRPGPB"
+			(at 378.46 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TrainTrackr-footprints:LED_FZ2812-5050"
-			(at 223.266 61.468 0)
+		(property "Footprint" "TrainTrackr-footprints:LED_IN-PI33TBTPRPGPB"
+			(at 378.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,7 +3490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 49.53 0)
+			(at 378.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +3499,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 49.53 0)
+			(at 378.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,8 +3507,48 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1"
-			(at 208.28 69.596 0)
+		(property "MF" "Inolux"
+			(at 378.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+			(at 378.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Inolux"
+			(at 378.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 378.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+			(at 378.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3680,7 +3558,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 222.504 63.246 0)
+			(at 378.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3689,8 +3567,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "FZ2812-5050"
-			(at 214.122 65.024 0)
+		(property "PARTREV" "1.2"
+			(at 378.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,8 +3577,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 210.566 66.548 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+			(at 378.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3709,8 +3587,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Feztek"
-			(at 210.312 67.818 0)
+		(property "MP" "IN-PI33TBTPRPGPB"
+			(at 378.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,187 +3597,85 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "bbf81e8b-5d5d-4461-b587-f74b90ac5580")
+		(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+			(at 378.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 378.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 378.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "9bb26388-f8b0-4f43-9d4a-922db316f6f3")
-		)
-		(pin "1"
-			(uuid "309a25e3-6351-47a6-bb5c-0a4c4f624577")
+			(uuid "f554dacf-7278-4bc1-9951-8f248acf70d4")
 		)
 		(pin "2"
-			(uuid "7d8d5d18-4362-430e-b63b-cfb1c8d68182")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "U43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 349.25 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96b1290e-1754-4537-ba17-11a34bbeead9")
-		(property "Reference" "#PWR042"
-			(at 349.25 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 349.25 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 349.25 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 349.25 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "00f3231e-01f3-44dd-8814-599b58615b5c")
 		)
 		(pin "1"
-			(uuid "dcff1fb8-a3a4-49fe-a491-ea5951cada18")
+			(uuid "02b81b60-63d9-4a7e-973f-2278fde1a274")
+		)
+		(pin "3"
+			(uuid "e01aecb9-ccde-4014-9567-ab6562ec07c3")
 		)
 		(instances
 			(project "TrainTrackr"
 				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR042")
+					(reference "D51")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 232.41 44.45 0)
+		(lib_id "TrainTrackr-lib:IN-PI33TBTPRPGPB")
+		(at 339.09 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9fba8c95-8a96-4a53-9acb-97d48e128ef0")
-		(property "Reference" "#PWR039"
-			(at 232.41 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 232.41 39.37 0)
+		(uuid "aa2ccdf5-8344-48cc-9bf0-0128d8f959ab")
+		(property "Reference" "D49"
+			(at 339.09 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 232.41 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 232.41 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "746bf452-9f30-40b2-93c1-9a150391cc40")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrainTrackr-lib:FZ2812-5050")
-		(at 335.28 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2fb0d63-d391-4e5a-8f1c-48677e0dabbf")
-		(property "Reference" "U50"
-			(at 335.28 73.66 0)
+		(property "Value" "IN-PI33TBTPRPGPB"
+			(at 339.09 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FZ2812-5050"
-			(at 335.28 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TrainTrackr-footprints:LED_FZ2812-5050"
-			(at 329.184 74.422 0)
+		(property "Footprint" "TrainTrackr-footprints:LED_IN-PI33TBTPRPGPB"
+			(at 339.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +3685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 86.36 0)
+			(at 339.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +3694,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 335.28 86.36 0)
+			(at 339.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,8 +3702,48 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1"
-			(at 344.17 66.294 0)
+		(property "MF" "Inolux"
+			(at 339.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+			(at 339.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Inolux"
+			(at 339.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 339.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+			(at 339.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3937,7 +3753,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 329.946 72.644 0)
+			(at 339.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3946,8 +3762,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "FZ2812-5050"
-			(at 338.328 70.866 0)
+		(property "PARTREV" "1.2"
+			(at 339.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3956,8 +3772,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 341.884 69.342 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+			(at 339.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3966,8 +3782,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Feztek"
-			(at 342.138 68.072 0)
+		(property "MP" "IN-PI33TBTPRPGPB"
+			(at 339.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,55 +3792,85 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "e5e8905f-26bf-404f-ae0c-bb84754bbd81")
+		(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+			(at 339.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 339.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 339.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "3c357bd8-f0de-4d9f-abc3-b9d55149d08a")
-		)
-		(pin "1"
-			(uuid "e17bad08-ac63-475a-9834-43a8d3a46f09")
+			(uuid "31d4ba45-4b44-468b-af75-c1120e41ac80")
 		)
 		(pin "2"
-			(uuid "49f41198-0d95-4aad-b957-265f479efe2e")
+			(uuid "25aa551b-3241-4a3f-b175-1d6855322135")
+		)
+		(pin "1"
+			(uuid "8b2b8bea-5791-4bc8-863c-38cc60757af3")
+		)
+		(pin "3"
+			(uuid "0ae9d0c7-b1dc-40f0-8296-0562bc45fb7b")
 		)
 		(instances
 			(project "TrainTrackr"
 				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "U50")
+					(reference "D49")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "TrainTrackr-lib:FZ2812-5050")
-		(at 62.23 49.53 0)
+		(lib_id "TrainTrackr-lib:IN-PI33TBTPRPGPB")
+		(at 299.72 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bde60adb-3595-45c4-a7f2-2b00e469c0c8")
-		(property "Reference" "U35"
-			(at 62.23 36.83 0)
+		(uuid "addb6c92-8a0a-4c2f-89f0-c2fa916affad")
+		(property "Reference" "D48"
+			(at 299.72 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FZ2812-5050"
-			(at 62.23 39.37 0)
+		(property "Value" "IN-PI33TBTPRPGPB"
+			(at 299.72 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TrainTrackr-footprints:LED_FZ2812-5050"
-			(at 68.326 61.468 0)
+		(property "Footprint" "TrainTrackr-footprints:LED_IN-PI33TBTPRPGPB"
+			(at 299.72 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +3880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 49.53 0)
+			(at 299.72 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +3889,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 49.53 0)
+			(at 299.72 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,8 +3897,48 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1"
-			(at 53.34 69.596 0)
+		(property "MF" "Inolux"
+			(at 299.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+			(at 299.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Inolux"
+			(at 299.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 299.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+			(at 299.72 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4062,7 +3948,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 67.564 63.246 0)
+			(at 299.72 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4071,8 +3957,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "FZ2812-5050"
-			(at 59.182 65.024 0)
+		(property "PARTREV" "1.2"
+			(at 299.72 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,8 +3967,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 55.626 66.548 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+			(at 299.72 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,8 +3977,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Feztek"
-			(at 55.372 67.818 0)
+		(property "MP" "IN-PI33TBTPRPGPB"
+			(at 299.72 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4101,55 +3987,85 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "3dc0a315-05a7-4282-b177-cd9f7765956c")
+		(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+			(at 299.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 299.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 299.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "bbfb3ce4-c273-41fa-b265-5b7f401c94dd")
-		)
-		(pin "1"
-			(uuid "d4385551-aec2-411e-97d4-7bd124d0e13c")
+			(uuid "0359024b-6375-4f98-ac92-135bd4373606")
 		)
 		(pin "2"
-			(uuid "38cdceb3-85de-4c00-ac96-7059ab1d62d1")
+			(uuid "65742652-ffc9-4094-b789-a035b6df408f")
+		)
+		(pin "1"
+			(uuid "50b5f6f2-2e86-4b8d-9d4b-15aa2fd330b8")
+		)
+		(pin "3"
+			(uuid "25504ad3-22ab-435d-84b1-01d4cd5d0f4d")
 		)
 		(instances
 			(project "TrainTrackr"
 				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "U35")
+					(reference "D48")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "TrainTrackr-lib:FZ2812-5050")
-		(at 180.34 86.36 180)
+		(lib_id "TrainTrackr-lib:IN-PI33TBTPRPGPB")
+		(at 139.7 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c0fa4342-cab6-4b6c-b69a-9ddc3a725e53")
-		(property "Reference" "U42"
-			(at 180.34 73.66 0)
+		(uuid "c87c1847-5ba0-4556-bf81-4e213b7b7a60")
+		(property "Reference" "D39"
+			(at 139.7 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FZ2812-5050"
-			(at 180.34 76.2 0)
+		(property "Value" "IN-PI33TBTPRPGPB"
+			(at 139.7 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TrainTrackr-footprints:LED_FZ2812-5050"
-			(at 174.244 74.422 0)
+		(property "Footprint" "TrainTrackr-footprints:LED_IN-PI33TBTPRPGPB"
+			(at 139.7 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,7 +4075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 86.36 0)
+			(at 139.7 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +4084,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 86.36 0)
+			(at 139.7 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,8 +4092,48 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1"
-			(at 189.23 66.294 0)
+		(property "MF" "Inolux"
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Inolux"
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+			(at 139.7 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4187,7 +4143,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 175.006 72.644 0)
+			(at 139.7 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4196,8 +4152,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "FZ2812-5050"
-			(at 183.388 70.866 0)
+		(property "PARTREV" "1.2"
+			(at 139.7 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,8 +4162,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 186.944 69.342 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+			(at 139.7 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,8 +4172,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Feztek"
-			(at 187.198 68.072 0)
+		(property "MP" "IN-PI33TBTPRPGPB"
+			(at 139.7 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,319 +4182,85 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "7b998209-c8fd-425a-8e0e-1d237f65787a")
+		(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "e748ca7a-1fc6-4ec9-8601-ff855e5b6f9e")
-		)
-		(pin "1"
-			(uuid "6fc8987c-ca15-4882-ad01-21034d855710")
+			(uuid "b99f9afe-dbb9-4f6f-bc34-e56309f62268")
 		)
 		(pin "2"
-			(uuid "789ab927-f73d-41e1-9fac-cc0855c75f10")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "U42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 271.78 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9a852d0-c2bc-402f-8eb3-d2745f0c1844")
-		(property "Reference" "#PWR040"
-			(at 271.78 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 271.78 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 271.78 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "159d55af-ea41-4042-936b-9c0b61072aed")
 		)
 		(pin "1"
-			(uuid "59ac2f5d-fcc2-406e-ae6d-9cb1c730ede8")
+			(uuid "9d997fa1-223a-40f0-8855-b4d9f67281fd")
+		)
+		(pin "3"
+			(uuid "d2f51678-b966-49c3-a16f-19950c926947")
 		)
 		(instances
 			(project "TrainTrackr"
 				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR040")
+					(reference "D39")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 165.1 91.44 180)
+		(lib_id "TrainTrackr-lib:IN-PI33TBTPRPGPB")
+		(at 101.6 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cd4e1d38-bd2f-4e37-b4b3-29aa8b84db20")
-		(property "Reference" "#PWR049"
-			(at 165.1 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 165.1 96.52 0)
+		(uuid "d21f7a25-85b9-4041-a7a9-d877512b3082")
+		(property "Reference" "D37"
+			(at 101.6 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 165.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 165.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "786b00d1-db41-48b4-ab3b-13f1daecfd9e")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 48.26 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf4b2b9c-4c7e-44c9-9d00-930927b874bf")
-		(property "Reference" "#PWR052"
-			(at 48.26 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 48.26 96.52 0)
+		(property "Value" "IN-PI33TBTPRPGPB"
+			(at 101.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 48.26 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 48.26 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "761764d2-9089-4cbd-94df-9f001125d102")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 125.73 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e92efea4-cfce-44b1-b6d9-b9c0b5d0d219")
-		(property "Reference" "#PWR050"
-			(at 125.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 125.73 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 125.73 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e1848a44-62c9-4889-94f9-eca117a08836")
-		)
-		(instances
-			(project "TrainTrackr"
-				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrainTrackr-lib:FZ2812-5050")
-		(at 218.44 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eec99db9-3030-48af-96e5-66a66784c9af")
-		(property "Reference" "U44"
-			(at 218.44 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FZ2812-5050"
-			(at 218.44 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TrainTrackr-footprints:LED_FZ2812-5050"
-			(at 212.344 74.422 0)
+		(property "Footprint" "TrainTrackr-footprints:LED_IN-PI33TBTPRPGPB"
+			(at 101.6 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,7 +4270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 86.36 0)
+			(at 101.6 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,7 +4279,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 86.36 0)
+			(at 101.6 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,8 +4287,48 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1"
-			(at 227.33 66.294 0)
+		(property "MF" "Inolux"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Inolux"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+			(at 101.6 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +4338,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 213.106 72.644 0)
+			(at 101.6 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,8 +4347,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "FZ2812-5050"
-			(at 221.488 70.866 0)
+		(property "PARTREV" "1.2"
+			(at 101.6 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,8 +4357,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 225.044 69.342 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+			(at 101.6 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,8 +4367,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Feztek"
-			(at 225.298 68.072 0)
+		(property "MP" "IN-PI33TBTPRPGPB"
+			(at 101.6 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,55 +4377,85 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "56160485-f472-47f1-9df1-2cc3125bcc55")
+		(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "b5689679-b2a1-4781-8b00-c59b89f8e62b")
-		)
-		(pin "1"
-			(uuid "4529593b-6a34-45a3-a6cf-2781041b4c55")
+			(uuid "fb648d32-d79c-477f-b5f5-11172fb48559")
 		)
 		(pin "2"
-			(uuid "56fa4a24-9581-4cf1-9848-236a8f158763")
+			(uuid "8fae87f7-6ede-45ef-94ae-ee610cab8b47")
+		)
+		(pin "1"
+			(uuid "ca73468d-16e8-4fb1-ad44-8b5e32ed1f42")
+		)
+		(pin "3"
+			(uuid "c259464d-369e-412e-9752-d09cb472b175")
 		)
 		(instances
 			(project "TrainTrackr"
 				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "U44")
+					(reference "D37")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "TrainTrackr-lib:FZ2812-5050")
-		(at 101.6 49.53 0)
+		(lib_id "TrainTrackr-lib:IN-PI33TBTPRPGPB")
+		(at 179.07 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ff956182-42c9-41f6-85b7-e24f0d9d71dc")
-		(property "Reference" "U37"
-			(at 101.6 36.83 0)
+		(uuid "d9988cf2-7c95-4a8e-b469-06ed5b09756f")
+		(property "Reference" "D42"
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FZ2812-5050"
-			(at 101.6 39.37 0)
+		(property "Value" "IN-PI33TBTPRPGPB"
+			(at 179.07 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TrainTrackr-footprints:LED_FZ2812-5050"
-			(at 107.696 61.468 0)
+		(property "Footprint" "TrainTrackr-footprints:LED_IN-PI33TBTPRPGPB"
+			(at 179.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,7 +4465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 49.53 0)
+			(at 179.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +4474,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 49.53 0)
+			(at 179.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,8 +4482,48 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "1"
-			(at 92.71 69.596 0)
+		(property "MF" "Inolux"
+			(at 179.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+			(at 179.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Inolux"
+			(at 179.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 179.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+			(at 179.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,7 +4533,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 106.934 63.246 0)
+			(at 179.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,8 +4542,8 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "FZ2812-5050"
-			(at 98.552 65.024 0)
+		(property "PARTREV" "1.2"
+			(at 179.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,8 +4552,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
-			(at 94.996 66.548 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+			(at 179.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4730,8 +4562,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Feztek"
-			(at 94.742 67.818 0)
+		(property "MP" "IN-PI33TBTPRPGPB"
+			(at 179.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,22 +4572,898 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "31622ba6-e7fe-46dc-9b67-42bf30070d95")
+		(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+			(at 179.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 179.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 179.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "9d6dfebb-f9cd-4536-84f2-a60c51aa33e7")
-		)
-		(pin "1"
-			(uuid "c93854a5-f3a8-45dd-a940-6f513058fe5f")
+			(uuid "dc264ed0-b0c7-45ef-85a9-9c1b0136ec0b")
 		)
 		(pin "2"
-			(uuid "ad5a8841-3890-47ad-880d-9e950ad0bb7f")
+			(uuid "39b76fc7-15b0-443b-9408-bcd4b0198dcf")
+		)
+		(pin "1"
+			(uuid "673f3a4f-2d36-4a10-89eb-056f17ceb9e9")
+		)
+		(pin "3"
+			(uuid "8b514760-7f48-42bb-a3ec-961e4db59449")
 		)
 		(instances
 			(project "TrainTrackr"
 				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
-					(reference "U37")
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 201.93 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dca86196-9c64-4909-9f8d-0c9e1924e188")
+		(property "Reference" "#PWR08"
+			(at 201.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 201.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 201.93 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33dee8c1-79c3-4b0e-b134-97e14792b6c4")
+		)
+		(instances
+			(project "TrainTrackr"
+				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrainTrackr-lib:IN-PI33TBTPRPGPB")
+		(at 257.81 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e30b02e4-c8a3-4a2a-b395-e5c3e22a95da")
+		(property "Reference" "D45"
+			(at 257.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN-PI33TBTPRPGPB"
+			(at 257.81 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TrainTrackr-footprints:LED_IN-PI33TBTPRPGPB"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Inolux"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Inolux"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "IN-PI33TBTPRPGPB"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1d5d5063-3910-4cae-932e-8043c1693a66")
+		)
+		(pin "2"
+			(uuid "06217e22-f284-48c1-9dad-dbf3787f5cbd")
+		)
+		(pin "1"
+			(uuid "754d5611-0469-4315-803c-bc5fc029abc1")
+		)
+		(pin "3"
+			(uuid "f7847286-b544-400d-b269-b5d9206a6e63")
+		)
+		(instances
+			(project "TrainTrackr"
+				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrainTrackr-lib:IN-PI33TBTPRPGPB")
+		(at 259.08 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1c68918-05dc-40d8-847b-948fd636dce1")
+		(property "Reference" "D46"
+			(at 259.08 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN-PI33TBTPRPGPB"
+			(at 259.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TrainTrackr-footprints:LED_IN-PI33TBTPRPGPB"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Inolux"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Inolux"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "IN-PI33TBTPRPGPB"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 259.08 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d7da4409-8e64-40e1-89b2-fac624b22524")
+		)
+		(pin "2"
+			(uuid "f23e3435-d3b8-489d-962e-6cc49b63580b")
+		)
+		(pin "1"
+			(uuid "717390c5-ac9b-4e05-9e71-2ce3849ca127")
+		)
+		(pin "3"
+			(uuid "8be84f03-b5f5-480c-86da-d73188d5ec8a")
+		)
+		(instances
+			(project "TrainTrackr"
+				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrainTrackr-lib:IN-PI33TBTPRPGPB")
+		(at 140.97 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4edf9cb-9694-4ba1-bab8-bc692b84efac")
+		(property "Reference" "D40"
+			(at 140.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN-PI33TBTPRPGPB"
+			(at 140.97 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TrainTrackr-footprints:LED_IN-PI33TBTPRPGPB"
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Inolux"
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Inolux"
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "IN-PI33TBTPRPGPB"
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b1d68bbd-924e-4251-b75c-1ff231b8f5d5")
+		)
+		(pin "2"
+			(uuid "f3ad2072-bfd0-4fcb-a60b-747c2974d363")
+		)
+		(pin "1"
+			(uuid "58998b02-ce2e-4724-ab86-2be6975c70b4")
+		)
+		(pin "3"
+			(uuid "50dd4d45-2bdb-4fdb-ac02-bcddf68c0752")
+		)
+		(instances
+			(project "TrainTrackr"
+				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrainTrackr-lib:IN-PI33TBTPRPGPB")
+		(at 218.44 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f953ed6c-a16e-4934-a223-d2c452756485")
+		(property "Reference" "D43"
+			(at 218.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN-PI33TBTPRPGPB"
+			(at 218.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TrainTrackr-footprints:LED_IN-PI33TBTPRPGPB"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Inolux"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.95 mm"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Inolux"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=eda"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IN-PI33TBTPRPGPB/Inolux/view-part/?ref=snap"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "IN-PI33TBTPRPGPB"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 3.50mm L x 3.50mm W\n                        \n"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3836ace3-1684-48d4-8874-9e1c456d0ea4")
+		)
+		(pin "2"
+			(uuid "d9e2a292-6ff9-4812-9f0c-ac27b26ec447")
+		)
+		(pin "1"
+			(uuid "40a24f60-0c82-40af-890a-2ce659baed5e")
+		)
+		(pin "3"
+			(uuid "d7c53c1a-6d1e-4e44-a6c8-1deac353c6bd")
+		)
+		(instances
+			(project "TrainTrackr"
+				(path "/779c311e-6596-48d7-a471-956474340a54/cc03eb7d-8b3b-44c7-8f88-3e66fe5cd160"
+					(reference "D43")
 					(unit 1)
 				)
 			)
